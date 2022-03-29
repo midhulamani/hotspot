@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=\, initial-scale=1.0">
+    <title>Latvia-Hotspot</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    
+
+<link href="style.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="container">
+       
+    </div>
+    <hr size="6" color="RED">
+    <img  src="latvia-map.png" usemap="#pagemap">
+    <map name="pagemap">
+    <area shape="circle" coords="559,401,25" alt="Riga" href="Riga.html"  onmouseover="load_riga()">
+    <area shape="circle" coords="703,365,25" alt="sigulda" href="sigulda.html">
+    <area shape="circle" coords="361,577,25" alt="auce" href="auce.html">
+    <area shape="circle" coords="725,149,25" alt="mazsalaca" href="mazsalaca.html"> 
+    <area shape="circle" coords="1125,551,25" alt="rezekne" href="rezekne.html">
+    </map>
+
+    <div class="description"></div>
+
+    <script>
+        function load_riga(){
+            document.getElementById("description").innerHTML = '<object type="text/html" data="Riga.html"></object>';
+        }
+    </script>
+
+    
+
+
+</body>
+</html>
